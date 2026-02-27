@@ -1,96 +1,101 @@
 📊 Painel de Tabuadas
 
-Um projeto simples em HTML, CSS e JavaScript que tem como objetivo gerar tabuadas de forma dinâmica na tela.
+Um projeto simples e funcional desenvolvido em HTML, CSS e JavaScript, que gera automaticamente as tabuadas do 1 ao 10 utilizando estruturas de repetição while.
 
-Ideal para treinar:
+Este projeto é ideal para treinar lógica de programação e manipulação do DOM.
 
-Manipulação do DOM
+🚀 Funcionalidades
 
-Funções em JavaScript
-
-Estruturas de repetição
-
-Organização de código front-end
-
-🚀 Demonstração
-
-O sistema exibe:
-
-Um título principal
-
-Um botão para gerar as tabuadas
-
-Uma área dinâmica onde o resultado será exibido
+✅ Gera automaticamente as tabuadas de 1 a 10
+✅ Exibe os resultados dinamicamente na tela
+✅ Utiliza estrutura de repetição while
+✅ Manipula conteúdo HTML via JavaScript
 
 🛠️ Tecnologias Utilizadas
 
 HTML5 → Estrutura da página
 
-CSS3 → Estilização da interface
+CSS3 → Estilização básica
 
-JavaScript → Lógica para geração das tabuadas
+JavaScript → Lógica de programação
 
 📂 Estrutura do Projeto
-📁 painel-tabuadas
+📁 painel-de-tabuadas
  └── index.html
-💻 Como Executar
-
-Baixe o arquivo index.html
-
-Clique duas vezes nele
-
-O projeto abrirá automaticamente no seu navegador
-
-Não é necessário instalar nada ✅
-
 🧠 Como Funciona
 
-A função principal do sistema é:
+Ao clicar no botão "Gerar Tabuadas", a função abaixo é executada:
 
 function gerarTabuadas()
+🔹 Lógica aplicada:
 
-Ela será responsável por:
+Cria uma variável conteudo para armazenar o HTML gerado.
 
-Criar uma variável para armazenar o conteúdo
+Utiliza um while externo para percorrer os números de 1 a 10.
 
-Gerar os cálculos das tabuadas
+Para cada número, cria outro while interno para calcular de 1 a 10.
 
-Inserir o resultado dentro da div com id resultado
+Concatena os resultados em formato HTML.
 
-Atualizar o conteúdo usando:
+Insere o conteúdo dentro da div com id resultado usando:
 
-document.getElementById("resultado").innerHTML
+document.getElementById("resultado").innerHTML = conteudo;
+📸 Resultado Esperado
+
+Ao clicar no botão, o sistema exibirá:
+
+Tabuada do 1
+1 x 1 = 1
+1 x 2 = 2
+...
+1 x 10 = 10
+
+Tabuada do 2
+2 x 1 = 2
+...
+
+Até a tabuada do 10.
+
 🎯 Objetivo Educacional
 
-Este projeto foi desenvolvido com foco em aprendizado de:
+Este projeto trabalha conceitos fundamentais como:
 
-Lógica de programação
+Estrutura de repetição while
 
-Estruturas de repetição (for)
+Variáveis
 
-Manipulação de elementos HTML via JavaScript
+Operações matemáticas
+
+Manipulação do DOM
 
 Eventos (onclick)
 
-🔥 Possíveis Melhorias Futuras
+Concatenação de strings
 
-Permitir que o usuário escolha o número da tabuada
+🔥 Melhorias Futuras (Sugestões)
 
-Estilizar melhor os resultados
+Permitir que o usuário escolha até qual número gerar
 
-Adicionar animações
+Adicionar campo de input
 
-Criar um layout mais moderno
+Melhorar o design com CSS mais moderno
 
-Transformar em uma versão responsiva
+Criar versão responsiva
 
-📌 Versão Atual
+Utilizar for ao invés de while
 
-✔ Estrutura HTML criada
-✔ Estilização básica aplicada
-✔ Botão configurado
-⚠ Função ainda precisa da lógica completa de geração das tabuadas
+Separar CSS e JavaScript em arquivos externos
+
+💻 Como Executar
+
+Salve o arquivo como index.html
+
+Abra no navegador
+
+Clique em Gerar Tabuadas
+
+Pronto ✅
 
 👨‍💻 Autor
 
-Desenvolvido para fins educacionais 🚀
+Projeto desenvolvido para prática de lógica de programação e JavaScript.
